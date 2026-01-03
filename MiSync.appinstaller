@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2021"
+    Version="1.0.0.0"
+    Uri="https://github.com/AMBasraLTD/MiSync-AD-Client/releases/download/v1.0.0/MiSync.appinstaller">
+
+  <MainPackage
+    Name="AMBasraLTD.MiSyncADClient"
+    Publisher="CN=AM Basra LTD"
+    Version="1.0.0.0"
+    Uri="https://github.com/AMBasraLTD/MiSync-AD-Client/releases/download/v1.0.0/MiSync_Client_V1.0.0.msix"
+    ProcessorArchitecture="x64" />
+
+  <UpdateSettings>
+    <OnLaunch 
+      HoursBetweenUpdateChecks="24"
+      ShowPrompt="true"
+      UpdateBlocksActivation="false" />
+    <AutomaticBackgroundTask />
+  </UpdateSettings>
+
+  <Dependencies>
+    <Package
+      Name="Microsoft.VCLibs.140.00.UWPDesktop"
+      Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+      ProcessorArchitecture="x64"
+      MinVersion="14.0.30704.0"
+      Uri="https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx" />
+  </Dependencies>
+
+</AppInstaller>
+
