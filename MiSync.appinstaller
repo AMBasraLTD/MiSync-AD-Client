@@ -11,14 +11,6 @@
     Uri="https://github.com/AMBasraLTD/MiSync-AD-Client/releases/download/v1.0.0/MiSync_Client_V1.0.0.msix"
     ProcessorArchitecture="x64" />
 
-  <UpdateSettings>
-    <OnLaunch 
-      HoursBetweenUpdateChecks="24"
-      ShowPrompt="true"
-      UpdateBlocksActivation="false" />
-    <AutomaticBackgroundTask />
-  </UpdateSettings>
-
   <Dependencies>
     <Package
       Name="Microsoft.VCLibs.140.00.UWPDesktop"
@@ -29,4 +21,5 @@
   </Dependencies>
 
 </AppInstaller>
+
 
