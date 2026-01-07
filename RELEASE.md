@@ -1,6 +1,6 @@
 # MiSync Release 1.0.0
 
-**Release Date:** 2026-01-06
+**Release Date:** 2026-01-07
 **Release Type:** Initial Release
 
 ## Installation
